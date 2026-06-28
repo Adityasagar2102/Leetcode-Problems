@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 117 ms |
-| Runtime Beats | 14.003099999999968% |
-| Memory | 55.2 MB |
-| Memory Beats | 5.7968999999997886% |
-| Timestamp | Sun, 28 Jun 2026 17:52:11 GMT |
+| Runtime | 0 ms |
+| Runtime Beats | 100% |
+| Memory | 9.6 MB |
+| Memory Beats | 97.77789999999999% |
+| Timestamp | Sun, 28 Jun 2026 19:18:33 GMT |
 
 ## Problem Description
 <p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code> where:</p>
