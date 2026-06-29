@@ -1,4 +1,4 @@
-# [2099. Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/?envType=daily-question&envId=2026-06-29)
+# [2099. Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word)
 
 ![Source](https://img.shields.io/badge/Source-LeetCode-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 2 ms |
-| Runtime Beats | 21.6019% |
-| Memory | 11.5 MB |
-| Memory Beats | 82.0389% |
-| Timestamp | Mon, 29 Jun 2026 18:41:02 GMT |
+| Runtime | 0 ms |
+| Runtime Beats | 100% |
+| Memory | 11.7 MB |
+| Memory Beats | 33.738% |
+| Timestamp | Mon, 29 Jun 2026 18:45:49 GMT |
 
 ## Problem Description
 <p>Given an array of strings <code>patterns</code> and a string <code>word</code>, return <em>the <strong>number</strong> of strings in </em><code>patterns</code><em> that exist as a <strong>substring</strong> in </em><code>word</code>.</p>
