@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 617 ms |
-| Runtime Beats | 5.0683000000000265% |
-| Memory | 288.2 MB |
-| Memory Beats | 5.055400000000128% |
-| Timestamp | Tue, 30 Jun 2026 10:59:29 GMT |
+| Runtime | 473 ms |
+| Runtime Beats | 11.067900000000025% |
+| Memory | 222.3 MB |
+| Memory Beats | 32.18460000000012% |
+| Timestamp | Tue, 30 Jun 2026 11:00:15 GMT |
 
 ## Problem Description
 <p>You are given an array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i<sup>th</sup></code> day.</p>
