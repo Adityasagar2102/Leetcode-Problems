@@ -10,10 +10,10 @@ public:
         if(buy){ // stock is bought
             stockbuy = max(prices[ind] + solve(prices,false,ind+1),solve(prices,true,ind+1));
         }else{
-            stocksell = max(solve(prices,true,ind+1) -prices[ind], solve(prices,false,ind+1));
+            stockbuy = max(solve(prices,true,ind+1) -prices[ind], solve(prices,false,ind+1));
         }
 
-        return dp[buy][ind] = max(stocksell,stockbuy);
+        return dp[buy][ind] = stockbuy;
     }
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
