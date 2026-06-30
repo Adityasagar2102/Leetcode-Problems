@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<vector<int>>>dp;
-    int solve(vector<int>& prices, int ind, bool buy, int t){
+    int solve(vector<int>& prices, int ind, int buy, int t){
         if(t==0) return 0;
         if(ind==prices.size()) return 0;
 
