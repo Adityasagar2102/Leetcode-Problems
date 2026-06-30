@@ -9,16 +9,16 @@ public:
         if(dp[ind][buy][t]!= -1) return dp[ind][buy][t];
 
         if(buy){
-            profit = max(solve(prices,ind+1,false,t)-prices[ind], solve(prices,ind+1,true,t));
+            profit = max(solve(prices,ind+1,0,t)-prices[ind], solve(prices,ind+1,1,t));
         }else{
-            profit = max(solve(prices,ind+1,true,t-1)+prices[ind], solve(prices,ind+1,false,t));
+            profit = max(solve(prices,ind+1,1,t-1)+prices[ind], solve(prices,ind+1,0,t));
         }
 
         return dp[ind][buy][t] = profit;
     }
     int maxProfit(vector<int>& prices) {
         
-        dp.assign(prices.size() +1, vector<vector<int>>(3,vector<int>(3,-1)));
-        return solve(prices,0,true,2);
+        dp.assign(prices.size() +1, vector<vector<int>>(2,vector<int>(3,-1)));
+        return solve(prices,0,1,2);
     }
 };
