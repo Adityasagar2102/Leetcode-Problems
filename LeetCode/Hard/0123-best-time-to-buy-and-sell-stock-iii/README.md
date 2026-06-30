@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 617 ms |
 | Runtime Beats | 5.0683000000000265% |
-| Memory | 289.5 MB |
+| Memory | 288.2 MB |
 | Memory Beats | 5.055400000000128% |
-| Timestamp | Tue, 30 Jun 2026 10:58:05 GMT |
+| Timestamp | Tue, 30 Jun 2026 10:59:29 GMT |
 
 ## Problem Description
 <p>You are given an array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i<sup>th</sup></code> day.</p>
