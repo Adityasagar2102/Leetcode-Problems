@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 543 ms |
-| Runtime Beats | 22.11950000000001% |
-| Memory | 296.5 MB |
-| Memory Beats | 12.273900000000022% |
-| Timestamp | Wed, 01 Jul 2026 23:50:05 GMT |
+| Runtime | 63 ms |
+| Runtime Beats | 60.3267% |
+| Memory | 14.4 MB |
+| Memory Beats | 47.113900000000015% |
+| Timestamp | Thu, 02 Jul 2026 00:04:10 GMT |
 
 ## Problem Description
 <p>Given an integer array <code>nums</code>, return <em>the length of the longest <strong>strictly increasing </strong></em><span data-keyword="subsequence-array"><em><strong>subsequence</strong></em></span>.</p>
