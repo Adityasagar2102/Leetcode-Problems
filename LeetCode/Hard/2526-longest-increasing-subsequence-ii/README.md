@@ -1,4 +1,4 @@
-# [2526. Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/)
+# [2526. Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii)
 
 ![Source](https://img.shields.io/badge/Source-LeetCode-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 79 ms |
-| Runtime Beats | 68.06769999999997% |
-| Memory | 47.3 MB |
-| Memory Beats | 96.35869999999998% |
-| Timestamp | Fri, 03 Jul 2026 15:57:13 GMT |
+| Runtime | 313 ms |
+| Runtime Beats | 6.164199999999965% |
+| Memory | 122.2 MB |
+| Memory Beats | 28.57309999999999% |
+| Timestamp | Fri, 03 Jul 2026 15:58:40 GMT |
 
 ## Problem Description
 <p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>
