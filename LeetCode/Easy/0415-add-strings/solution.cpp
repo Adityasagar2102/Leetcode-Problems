@@ -1,59 +1,27 @@
 class Solution {
 public:
     string addStrings(string num1, string num2) {
-        int n = num1.size();
-        int m = num2.size();
-        int i=n-1,j=m-1;
-
-        if(n==1 && m==1) return to_string((num1[0]-'0') + (num2[0]-'0'));
+        int i = num1.size() - 1;
+        int j = num2.size() - 1;
+        int carry = 0;
 
         string ans = "";
 
-        int car = 0;
-        while(i>=0 && j>=0){
-            int temp = (num1[i]-'0') + (num2[j] - '0') + car;
-            cout << temp << endl;
-            if(temp >9){
-                car = temp/10;
-                temp = temp%10;
-            }else{
-                car = 0;
-            }
-            ans += to_string(temp);
-            i--;
-            j--;
-        }
-        cout << ans << endl;
+        while (i >= 0 || j >= 0 || carry) {
+            int sum = carry;
 
-        while(i>=0){
-            int temp = (num1[i] - '0') + car;
-            cout << temp << endl;
-            if(temp >9){
-                car = temp/10;
-                temp = temp%10;
-            }else{
-                car=0;
-            }
-            ans += to_string(temp);
-            i--;
-        }
-        while(j>=0){
-           int temp = (num2[j] - '0') + car;
-            cout << temp << endl;
-            if(temp >9){
-                car = temp/10;
-                temp = temp%10;
-            }else{
-                car = 0;
-            }
-            ans += to_string(temp);
-            j--;
-        }
+            if (i >= 0)
+                sum += num1[i--] - '0';
 
-        if(car != 0) ans += to_string(car);
+            if (j >= 0)
+                sum += num2[j--] - '0';
+
+            ans.push_back((sum % 10) + '0');
+            carry = sum / 10;
+        }
 
         reverse(ans.begin(), ans.end());
-        return ans;
 
+        return ans;
     }
 };
