@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 0 ms |
 | Runtime Beats | 100% |
-| Memory | 9 MB |
-| Memory Beats | 73.20460000000001% |
-| Timestamp | Tue, 07 Jul 2026 09:35:54 GMT |
+| Memory | 9.3 MB |
+| Memory Beats | 26.269500000000015% |
+| Timestamp | Tue, 07 Jul 2026 10:47:13 GMT |
 
 ## Problem Description
 <p>Given two strings <code>needle</code> and <code>haystack</code>, return the index of the first occurrence of <code>needle</code> in <code>haystack</code>, or <code>-1</code> if <code>needle</code> is not part of <code>haystack</code>.</p>
