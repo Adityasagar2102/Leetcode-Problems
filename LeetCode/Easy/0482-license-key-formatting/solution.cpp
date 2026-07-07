@@ -19,8 +19,8 @@ public:
             }
 
         }
-        if(ans.empty()) return "";
-        while(ans.back() == '-'){
+        // if(ans.empty()) return "";
+        while(!ans.empty() && ans.back() == '-'){
             ans.pop_back();
         }
         reverse(ans.begin(), ans.end());
