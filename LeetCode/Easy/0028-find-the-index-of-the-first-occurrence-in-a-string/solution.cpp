@@ -5,14 +5,11 @@ public:
         int m = needle.size();
         int ind = -1;
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<=n-m; i++){
             bool match = true;
             // int ind = -1
             for(int j=0; j<m; j++){
-                if(j+i>=n){
-                    match = false;
-                    break;
-                }
+                
                 if(haystack[j+i]!= needle[j]){
                     match = false;
                     break;
