@@ -1,4 +1,4 @@
-# [415. Add Strings](https://leetcode.com/problems/add-strings/?envType=problem-list-v2&envId=string)
+# [415. Add Strings](https://leetcode.com/problems/add-strings)
 
 ![Source](https://img.shields.io/badge/Source-LeetCode-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 52 ms |
-| Runtime Beats | 5.865899999999997% |
-| Memory | 10.1 MB |
-| Memory Beats | 26.03580000000001% |
-| Timestamp | Tue, 07 Jul 2026 13:36:56 GMT |
+| Runtime | 0 ms |
+| Runtime Beats | 100% |
+| Memory | 9 MB |
+| Memory Beats | 95.4645% |
+| Timestamp | Tue, 07 Jul 2026 13:39:10 GMT |
 
 ## Problem Description
 <p>Given two non-negative integers, <code>num1</code> and <code>num2</code> represented as string, return <em>the sum of</em> <code>num1</code> <em>and</em> <code>num2</code> <em>as a string</em>.</p>
