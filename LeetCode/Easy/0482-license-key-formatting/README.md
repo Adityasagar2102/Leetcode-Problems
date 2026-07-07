@@ -1,4 +1,4 @@
-# [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/?envType=problem-list-v2&envId=string)
+# [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting)
 
 ![Source](https://img.shields.io/badge/Source-LeetCode-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 0 ms |
-| Runtime Beats | 100% |
-| Memory | 10.7 MB |
-| Memory Beats | 51.84819999999999% |
-| Timestamp | Tue, 07 Jul 2026 13:53:22 GMT |
+| Runtime | 3 ms |
+| Runtime Beats | 47.116800000000005% |
+| Memory | 10.6 MB |
+| Memory Beats | 87.18579999999999% |
+| Timestamp | Tue, 07 Jul 2026 13:55:16 GMT |
 
 ## Problem Description
 <p>You are given a license key represented as a string <code>s</code> that consists of only alphanumeric characters and dashes. The string is separated into <code>n + 1</code> groups by <code>n</code> dashes. You are also given an integer <code>k</code>.</p>
