@@ -10,11 +10,7 @@ public:
             }
 
             if(isalnum(s[i])){
-                if(s[i]>='a' && s[i]<='z'){
-                    ans += toupper(s[i]);
-                }else {
-                    ans += s[i];
-                }
+                ans += toupper(s[i]);
                 kk--;
             }
 
