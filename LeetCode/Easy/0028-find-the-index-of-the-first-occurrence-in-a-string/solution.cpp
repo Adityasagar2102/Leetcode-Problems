@@ -1,24 +1,29 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int n = haystack.size();
-        int m = needle.size();
-        int ind = -1;
-
-        for(int i=0; i<=n-m; i++){
-            bool match = true;
-            // int ind = -1
-            for(int j=0; j<m; j++){
-                
-                if(haystack[j+i]!= needle[j]){
-                    match = false;
-                    break;
-                }
+        vector<int>lps(needle.size(),0);
+        int pre = 0;
+        for(int i=1; i<needle.size(); i++){
+            while(pre>0 &&needle[i]!=needle[pre]){
+                pre = lps[pre-1];
             }
-            if(match) return i;
+            if(needle[i] == needle[pre]){
+                pre++;
+                lps[i]=pre;
+            }
         }
 
+        int n=0;
+        for(int i=0; i<haystack.size(); i++){
+            while(n>0 && haystack[i] != needle[n]){
+                n = lps[n-1];
+            }
+            if(haystack[i]==needle[n]){
+                n++;
+            }
+            if(n==needle.size())
+                return i-n+1;
+        }
         return -1;
-
     }
 };
