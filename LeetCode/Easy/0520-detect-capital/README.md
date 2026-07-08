@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 0 ms |
 | Runtime Beats | 100% |
-| Memory | 8.1 MB |
+| Memory | 8.2 MB |
 | Memory Beats | 50.7876% |
-| Timestamp | Wed, 08 Jul 2026 08:15:23 GMT |
+| Timestamp | Wed, 08 Jul 2026 08:16:13 GMT |
 
 ## Problem Description
 <p>We define the usage of capitals in a word to be right when one of the following cases holds:</p>
