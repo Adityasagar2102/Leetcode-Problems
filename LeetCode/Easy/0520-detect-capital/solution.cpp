@@ -4,9 +4,9 @@ public:
         int n = word.size();
         int cnt = 0;
         bool capital = true;
-        if(word[0]>='A' && word[0]<='Z'){
-            // cnt++;
-        }else capital = false;
+        if(word[0]>='a' && word[0]<='z'){
+            capital = false;
+        }
 
 
         for(int i=1; i<n; i++){
