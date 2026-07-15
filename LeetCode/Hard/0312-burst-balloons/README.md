@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 155 ms |
-| Runtime Beats | 53.3865000000001% |
-| Memory | 10.9 MB |
-| Memory Beats | 98.50090000000002% |
-| Timestamp | Wed, 15 Jul 2026 22:04:59 GMT |
+| Runtime | 147 ms |
+| Runtime Beats | 55.45000000000011% |
+| Memory | 11.1 MB |
+| Memory Beats | 96.83420000000001% |
+| Timestamp | Wed, 15 Jul 2026 22:05:11 GMT |
 
 ## Problem Description
 <p>You are given <code>n</code> balloons, indexed from <code>0</code> to <code>n - 1</code>. Each balloon is painted with a number on it represented by an array <code>nums</code>. You are asked to burst all the balloons.</p>
