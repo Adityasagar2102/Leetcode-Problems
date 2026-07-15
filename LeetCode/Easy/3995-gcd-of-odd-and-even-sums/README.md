@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 0 ms |
 | Runtime Beats | 100% |
-| Memory | 8.6 MB |
-| Memory Beats | 9.27770000000001% |
-| Timestamp | Wed, 15 Jul 2026 21:42:21 GMT |
+| Memory | 8.4 MB |
+| Memory Beats | 85.02640000000001% |
+| Timestamp | Wed, 15 Jul 2026 21:43:36 GMT |
 
 ## Problem Description
 <p>You are given an integer <code>n</code>. Your task is to compute the <strong>GCD</strong> (greatest common divisor) of two values:</p>
