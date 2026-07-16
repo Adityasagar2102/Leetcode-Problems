@@ -24,7 +24,7 @@ public:
 
             while(ex[i]!=')'){
                 bool value = parse(ex,i);
-                // if(value) return true;
+                
                 ans = ans || value;
 
                 if(ex[i]==','){
@@ -40,7 +40,7 @@ public:
 
             while(ex[i]!=')'){
                 bool value = parse(ex,i);
-                // if(!value) return false;
+                
                 ans = ans && value;
 
                 if(ex[i]==',') i++;
