@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 239 ms |
+| Runtime | 234 ms |
 | Runtime Beats | 5.038600000000023% |
-| Memory | 11.8 MB |
-| Memory Beats | 97.43929999999999% |
-| Timestamp | Thu, 16 Jul 2026 12:44:11 GMT |
+| Memory | 12 MB |
+| Memory Beats | 95.4716% |
+| Timestamp | Thu, 16 Jul 2026 12:46:01 GMT |
 
 ## Problem Description
 <p>Given an integer array <code>arr</code>, partition the array into (contiguous) subarrays of length <strong>at most</strong> <code>k</code>. After partitioning, each subarray has their values changed to become the maximum value of that subarray.</p>
