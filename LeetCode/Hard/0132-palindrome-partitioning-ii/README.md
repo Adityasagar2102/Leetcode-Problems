@@ -1,4 +1,4 @@
-# [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
+# [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)
 
 ![Source](https://img.shields.io/badge/Source-LeetCode-blue)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red)
@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 1410 ms |
-| Runtime Beats | 43.76109999999985% |
+| Runtime | 1419 ms |
+| Runtime Beats | 43.64999999999984% |
 | Memory | 63 MB |
-| Memory Beats | 6.702399999999965% |
-| Timestamp | Thu, 16 Jul 2026 12:07:02 GMT |
+| Memory Beats | 8.792299999999965% |
+| Timestamp | Thu, 16 Jul 2026 12:08:58 GMT |
 
 ## Problem Description
 <p>Given a string <code>s</code>, partition <code>s</code> such that every <span data-keyword="substring-nonempty">substring</span> of the partition is a <span data-keyword="palindrome-string">palindrome</span>.</p>
