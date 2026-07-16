@@ -36,7 +36,7 @@ public:
         if(dp[i]!=-1) return dp[i];
         int ans = 1e9;
 
-        for(int j=i; j<s.size();j++){
+        for(int j=s.size()-1; j>=i;j--){
             if(check(s,i,j)){
                 if(j==s.size()-1) return dp[i] = 0;
                 ans = min(ans,1+solve(s,j+1));
