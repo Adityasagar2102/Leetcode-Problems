@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 9 ms |
-| Runtime Beats | 38.21720000000002% |
-| Memory | 30.4 MB |
-| Memory Beats | 48.26810000000002% |
-| Timestamp | Thu, 16 Jul 2026 17:21:16 GMT |
+| Runtime | 16 ms |
+| Runtime Beats | 12.97350000000002% |
+| Memory | 30.3 MB |
+| Memory Beats | 68.56760000000001% |
+| Timestamp | Thu, 16 Jul 2026 17:22:29 GMT |
 
 ## Problem Description
 <p>Given a <code>m * n</code> matrix of ones and zeros, return how many <strong>square</strong> submatrices have all ones.</p>
