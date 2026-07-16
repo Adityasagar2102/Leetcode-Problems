@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 3 ms |
 | Runtime Beats | 59.0894% |
-| Memory | 9.6 MB |
-| Memory Beats | 98.9033% |
-| Timestamp | Thu, 16 Jul 2026 10:00:36 GMT |
+| Memory | 9.7 MB |
+| Memory Beats | 96.2114% |
+| Timestamp | Thu, 16 Jul 2026 10:04:33 GMT |
 
 ## Problem Description
 <p>A <strong>boolean expression</strong> is an expression that evaluates to either <code>true</code> or <code>false</code>. It can be in one of the following shapes:</p>
