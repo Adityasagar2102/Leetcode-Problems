@@ -11,12 +11,10 @@ public:
             }else{
                 cnt--;
                 cout << cnt<< endl;
-                if(cnt<0){
-                    // cout<<0;
-                    cnt=0;
-                    maj=nums[i];
-                    // cout<<maj;
-                }
+            }
+            if(cnt<0){
+                cnt=0;
+                maj=nums[i];
             }
         }
 
