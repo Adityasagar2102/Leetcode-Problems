@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 111 ms |
+| Runtime | 109 ms |
 | Runtime Beats | 7.298900000000005% |
-| Memory | 28.4 MB |
-| Memory Beats | 11.36140000000006% |
-| Timestamp | Mon, 20 Jul 2026 18:07:00 GMT |
+| Memory | 28.1 MB |
+| Memory Beats | 91.18910000000005% |
+| Timestamp | Mon, 20 Jul 2026 18:07:34 GMT |
 
 ## Problem Description
 <p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>
