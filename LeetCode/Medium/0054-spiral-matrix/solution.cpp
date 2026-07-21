@@ -12,19 +12,19 @@ public:
         while(left<=right && top<=bottom){
             for(int i=left; i<=right;  i++){
                 spiral.push_back(matrix[top][i]);
-                cout<<"test 1 "<<matrix[top][i]<<endl;
+                // cout<<"test 1 "<<matrix[top][i]<<endl;
             }
             top++;
             for(int i=top; i<=bottom;  i++){
                 spiral.push_back(matrix[i][right]);
-                cout<<"test 2 "<<matrix[i][right]<<endl;
+                // cout<<"test 2 "<<matrix[i][right]<<endl;
             }
             right--;
             if(top<=bottom)
             {
                 for(int i=right; i>=left;  i--){
                     spiral.push_back(matrix[bottom][i]);
-                    cout<<"test 3 "<<matrix[bottom][i]<<endl;
+                    // cout<<"test 3 "<<matrix[bottom][i]<<endl;
                 }
             }
             bottom--;
@@ -32,7 +32,7 @@ public:
             {
                 for(int i=bottom; i>=top;  i--){
                     spiral.push_back(matrix[i][left]);
-                    cout<<"test 4 "<<matrix[i][left]<<endl;
+                    // cout<<"test 4 "<<matrix[i][left]<<endl;
                 }
             }
             left++;
