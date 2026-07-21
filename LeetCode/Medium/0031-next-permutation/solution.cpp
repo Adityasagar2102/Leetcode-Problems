@@ -3,14 +3,14 @@ public:
     void nextPermutation(vector<int>& nums) {
         int n = nums.size();
         int mn= INT_MAX;
-        bool found = false;
+        // bool found = false;
         int ind = -1;
 
 
         for(int i=n-1; i>0; i--){
             // mn = min(mn,nums[i]);
             if(nums[i]>nums[i-1]){
-                found = true;
+                // found = true;
                 ind = i;
                 break;
             }
