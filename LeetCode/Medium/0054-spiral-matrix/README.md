@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 1 ms |
-| Runtime Beats | 2.2760999999999996% |
+| Runtime | 0 ms |
+| Runtime Beats | 100% |
 | Memory | 9.2 MB |
 | Memory Beats | 83.0817% |
-| Timestamp | Tue, 21 Jul 2026 17:38:31 GMT |
+| Timestamp | Tue, 21 Jul 2026 17:38:51 GMT |
 
 ## Problem Description
 <p>Given an <code>m x n</code> <code>matrix</code>, return <em>all elements of the</em> <code>matrix</code> <em>in spiral order</em>.</p>
