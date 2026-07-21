@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 0 ms |
 | Runtime Beats | 100% |
-| Memory | 15.9 MB |
-| Memory Beats | 9.18680000000002% |
-| Timestamp | Tue, 21 Jul 2026 08:26:34 GMT |
+| Memory | 15.7 MB |
+| Memory Beats | 74.45550000000001% |
+| Timestamp | Tue, 21 Jul 2026 08:26:54 GMT |
 
 ## Problem Description
 <p>A <strong>permutation</strong> of an array of integers is an arrangement of its members into a sequence or linear order.</p>
