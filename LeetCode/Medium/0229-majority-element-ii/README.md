@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 0 ms |
-| Runtime Beats | 100% |
-| Memory | 23.6 MB |
-| Memory Beats | 85.49070000000002% |
-| Timestamp | Wed, 22 Jul 2026 07:06:24 GMT |
+| Runtime | 4 ms |
+| Runtime Beats | 45.5902% |
+| Memory | 23.7 MB |
+| Memory Beats | 66.76400000000001% |
+| Timestamp | Wed, 22 Jul 2026 07:07:25 GMT |
 
 ## Problem Description
 <p>Given an integer array of size <code>n</code>, find all elements that appear more than <code>&lfloor;n / 3&rfloor;</code> times.</p>
