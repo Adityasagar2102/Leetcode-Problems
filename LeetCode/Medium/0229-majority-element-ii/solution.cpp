@@ -25,7 +25,7 @@ public:
 
         for(auto num: nums){
             if(num==ele1)cnt1++;
-            if(num==ele2)cnt2++;
+            else if(num==ele2)cnt2++;
         }
 
         vector<int> ans;
@@ -33,9 +33,9 @@ public:
         if(cnt2>freq) ans.push_back(ele2);
 
         // cout<<ele1<< " "<<ele2;
-        if(ans.size()==0) return {};
-        if(ans.size()==2 && ans[0]!=ans[1])
+        // if(ans.size()==0) return {};
+        // if(ans.size()==2 && ans[0]!=ans[1])
         return ans;
-        else return {ans[0]};
+        // else return {ans[0]};
     }
 };
