@@ -9,11 +9,11 @@
 ## Stats (Latest Submission)
 | Metric | Value |
 |--------|-------|
-| Runtime | 3037 ms |
-| Runtime Beats | 5.008699999999952% |
-| Memory | 510.2 MB |
-| Memory Beats | 5.380799999999938% |
-| Timestamp | Wed, 22 Jul 2026 07:45:33 GMT |
+| Runtime | 52 ms |
+| Runtime Beats | 35.19029999999999% |
+| Memory | 29 MB |
+| Memory Beats | 73.54159999999999% |
+| Timestamp | Wed, 22 Jul 2026 08:13:19 GMT |
 
 ## Problem Description
 <p>Given an integer array nums, return all the triplets <code>[nums[i], nums[j], nums[k]]</code> such that <code>i != j</code>, <code>i != k</code>, and <code>j != k</code>, and <code>nums[i] + nums[j] + nums[k] == 0</code>.</p>
