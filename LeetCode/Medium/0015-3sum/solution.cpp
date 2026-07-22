@@ -2,28 +2,37 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         int n = nums.size();
-        // sort(nums.begin(),nums.end());
+        sort(nums.begin(),nums.end());
+        int high = n-1;
+        int mid;
 
-        map<int,int> mp; // nums,index
-        // for(int i=0; i<n; i++) 
+        vector<vector<int>> ans;
 
-        set<vector<int>> ansmid;
         for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                if(i==j) continue;
-                int temp = -(nums[i] + nums[j]);
-                if(mp.find(temp)!= mp.end()){
-                    if(i==mp[temp] || j==mp[temp]) continue;
-                    vector<int> arr = {nums[i],nums[j],temp};
-                    sort(arr.begin(),arr.end());
-                    ansmid.insert(arr);
+            mid = i+1;
+            high = n-1;
+            while(mid<high){
+                int sum = nums[i]+nums[mid]+nums[high];
+                if(sum==0){
+                    ans.push_back({nums[i],nums[mid],nums[high]});
+                    int mtemp = nums[mid];
+                    int htemp = nums[high];
+                    while(mid<high && nums[mid]==mtemp) mid++;
+                    while(high>mid && nums[high]==htemp) high--;
+                }
+                else if(sum<0){
+                    int mtemp = nums[mid];
+                    while(mid<high && nums[mid]==mtemp) mid++;
+                }
+                else{
+                    int htemp = nums[high];
+                    while(high>mid && nums[high]==htemp) high--;
                 }
             }
-            mp[nums[i]] = i;
+            int tempi = nums[i];
+            while(i<n && nums[i]==tempi) i++;
+            i--;
         }
-
-        vector<vector<int>> ans(ansmid.begin(), ansmid.end());
-        
 
         return ans;
     }
