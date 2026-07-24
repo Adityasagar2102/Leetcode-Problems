@@ -11,9 +11,9 @@
 |--------|-------|
 | Runtime | 0 ms |
 | Runtime Beats | 100% |
-| Memory | 13.5 MB |
-| Memory Beats | 98.80690000000001% |
-| Timestamp | Fri, 24 Jul 2026 11:53:44 GMT |
+| Memory | 13.7 MB |
+| Memory Beats | 43.61660000000001% |
+| Timestamp | Fri, 24 Jul 2026 11:55:10 GMT |
 
 ## Problem Description
 <p>Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.</p>
